@@ -247,13 +247,13 @@
 			"id": "bf208e6b-f66d-4008-9366-dd541ff65425",
 			"key": "apiId",
 			"value": "",
-			"type": "string"
+			"type": "xv80a08q8e"
 		},
 		{
 			"id": "9bc6399a-d2bb-4f2d-9ffa-8480370d383c",
 			"key": "authToken",
 			"value": "",
-			"type": "string"
+			"type": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6InpzajBwS1hXVW1yWUk2MVp5c29JRiJ9.eyJpc3MiOiJodHRwczovL2Rldi1jdXEzYzY5bS51cy5hdXRoMC5jb20vIiwic3ViIjoiWHNqS1V6R2FMeVRLMUR5Vm1mZkJPTHd2QWpaSzkxVzZAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vZGV2LWN1cTNjNjltLnVzLmF1dGgwLmNvbS9hcGkvdjIvIiwiaWF0IjoxNjY0ODgyMTQ5LCJleHAiOjE2NjQ5Njg1NDksImF6cCI6IlhzaktVekdhTHlUSzFEeVZtZmZCT0x3dkFqWks5MVc2IiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIn0.L-jUq9yhfB013lQg49vn3jTlcJuwPpxE3kyewV6oVRH3gWiY8c6Q6WQ8w9LA9XWfJFUXiDhWj4ejCk2owDz5mF15FY9gVAawU4I9xDXHqzdHd1Amuc6KVivYRHAWq9kDCIrSmDoLC0naaW_m-Ag4UScu-luoICRJpo0aaSauR5EfNq9q0nYUmU-Px-Sz3hVSW-SfnAweYPxdJqSAnGxmCQMCq5N5lByvXu5ZK6lB004OHBc1PWwG8LxmBNZta8NbrTIcQtSQN5I7cqrIK2V6qAAOA7BhmIPXiLPTRNcJfRUGDIhb81q0_pGqgSPZUGbX0NvigLeiArsXGHL_LWdb8g"
 		}
 	]
 }
