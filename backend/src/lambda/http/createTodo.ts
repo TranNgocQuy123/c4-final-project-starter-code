@@ -10,7 +10,7 @@ export const handler = middy(
   async (event: APIGatewayProxyEvent): Promise<APIGatewayProxyResult> => {
     const newTodo: CreateTodoRequest = JSON.parse(event.body)
     let userId = getUserId(event)
-    const { todoId, name, dueDate, createdAt, done, attachmentUrl } = await createTodo(userId, newTodo)
+    const { todoId, name, dueDate, createdAt, done } = await createTodo(userId, newTodo)
     return {
       statusCode: 201,
       headers: {
@@ -18,7 +18,7 @@ export const handler = middy(
         'Access-Control-Allow-Credentials': true
       },
       body: JSON.stringify({
-        item: { todoId, name, dueDate, createdAt, done, attachmentUrl }
+        item: { todoId, name, dueDate, createdAt, done }
       })
     };
   }

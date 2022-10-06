@@ -7,12 +7,13 @@ import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
 import { createLogger } from '../utils/logger'
 import * as uuid from 'uuid'
 import * as AWS from 'aws-sdk'
-
+import * as AWSXRay from 'aws-xray-sdk'
 // TODO: Implement businessLogic
+const XAWS = AWSXRay.captureAWS(AWS)
 
 const logger = createLogger('Todos business logic')
 
-const s3 = new AWS.S3({
+const s3 = new XAWS.S3({
     signatureVersion: 'v4'
   })
   
